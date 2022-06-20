@@ -1,0 +1,9 @@
+.card {
+    margin-bottom: 2rem;
+}
+
+/* Source: https://ordinarycoders.com/blog/article/codepen-bootstrap-card-hovers */
+.card:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
