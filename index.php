@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="js/scrollfade.js"></script>
+    <script defer src="js/app.js"></script>
   </head>
  
   <body class="bg-dark">  
     
     <main class="container-fluid">
         <!-- Image -->
-        <div class="background-bg">
+        <div class="background-bg hidden">
             <div class="background-img"></div>
         </div>
 
@@ -56,42 +56,88 @@
 
         <!-- Content -->
 
-        <div class ="row d-flex justify-content-center p-2  mt-5 item content">    
-            <div class="content-style scrollFade"> 
+        <div class ="row d-flex justify-content-center item content">    
+            <div class="content-style hidden"> 
                 <h1>Andrej <br>Schwanke</h1>
-                <p>
-                Hello! I am a computer science student from Germany, Freiburg im Breisgau. I specicialize in artificial intelligence and bioinformatics.
-                </p>       
+                  
+                <p class="pt-5">Hello! I am a computer science student from Germany, Freiburg im Breisgau.
+                I specicialize in artificial intelligence and bioinformatics.</p>
+                
             </div>
 
-            <div class="content-style scrollFade" id="aboutme">
+            <div class="content-style hidden" id="aboutme">
                 <h1>About me</h1>
                 <p>
-                    This is just some random text for testing.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+                magna aliquyam erat, sed diam voluptua. At vero eos 
+                et accusam et justo duo dolores et ea rebum. Stet clita 
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
+                sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+                ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                 no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
             </div>
-            <div class="content-style scrollFade" id="skills">
+            <div class="content-style hidden" id="skills">
                 <h1>Skills</h1>
                 <p>
-                    This is just some random text for testing.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+                magna aliquyam erat, sed diam voluptua. At vero eos 
+                et accusam et justo duo dolores et ea rebum. Stet clita 
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
+                sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+                ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                 no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
             </div>
-            <div class="content-style scrollFade" id="interests">
+            <div class="content-style hidden" id="interests">
                 <h1>Interests</h1>
                 <p>
-                    This is just some random text for testing.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+                magna aliquyam erat, sed diam voluptua. At vero eos 
+                et accusam et justo duo dolores et ea rebum. Stet clita 
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
+                sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+                ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                 no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
             </div>
-            <div class="content-style scrollFade" id="projects">
+            <div class="content-style hidden" id="projects">
                 <h1>Projects</h1>
                 <p>
-                    This is just some random text for testing.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+                magna aliquyam erat, sed diam voluptua. At vero eos 
+                et accusam et justo duo dolores et ea rebum. Stet clita 
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
+                sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+                ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                 no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
             </div>
-            <div class="content-style scrollFade" id="Links">
+            <div class="content-style hidden" id="links">
                 <h1>Links</h1>
                 <p>
-                    This is just some random text for testing.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+                magna aliquyam erat, sed diam voluptua. At vero eos 
+                et accusam et justo duo dolores et ea rebum. Stet clita 
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+                dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
+                sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+                ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                 no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
             </div>
         </div>
