@@ -2,6 +2,11 @@ body {
     font-family: 'Source Sans Pro' !important;
 }
 
+#typewriter {
+    letter-spacing: 0.25em;
+    color:rgb(100, 204, 105);
+    font-size: 50px;
+}
 
 a {
   text-decoration: none !important;
@@ -101,6 +106,10 @@ https://www.youtube.com/watch?v=T33NN_pPeNI
 }
 
 @media screen and (max-width: 990px) {
+    #mainText {
+        padding-top: 0;
+    }
+
     .background-bg {
         position: relative;
         width: 100%;
