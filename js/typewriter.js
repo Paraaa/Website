@@ -3,7 +3,7 @@ Based on: https://www.w3schools.com/howto/howto_js_typewriter.asp
 */
 var i = 0;
 var subheading = 'Programming - Artificial intelligence - Data Science'; /* The text */
-var speed = 70; /* The speed/duration of the effect in milliseconds */
+var speed = 60; /* The speed/duration of the effect in milliseconds */
 var finisched = false
 
 function typeWriter() {
@@ -14,9 +14,7 @@ function typeWriter() {
   } else {
     finisched = true
   }
-
 }
-
 
 var j = 0;
 var c1 = 'Hey! I am a computer science student from Freiburg!'

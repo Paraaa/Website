@@ -42,9 +42,9 @@ h1 {
     padding-top: 5rem;
 }
 
-.img {
+.i-img {
     filter: invert(100%) !important;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 5rem;
 }
 
