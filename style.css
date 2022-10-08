@@ -122,6 +122,11 @@ https://www.youtube.com/watch?v=T33NN_pPeNI
     transition-delay: 400ms;
 }
 
+.show-img:hover {
+    transform: scale(1.25);
+    transition: 250ms;
+}
+
 @media(prefers-reduced-motion){
     .hidden {
         transition: none;
