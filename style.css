@@ -42,6 +42,16 @@ h1 {
     padding-top: 5rem;
 }
 
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 7rem;
+    margin: 2rem;
+}
+
 .i-img {
     filter: invert(100%) !important;
     margin-top: 10px;
@@ -123,6 +133,11 @@ https://www.youtube.com/watch?v=T33NN_pPeNI
 }
 
 .show-img:hover {
+    transform: scale(1.25);
+    transition: 250ms;
+}
+
+.logo:hover {
     transform: scale(1.25);
     transition: 250ms;
 }
