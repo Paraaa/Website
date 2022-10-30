@@ -1,178 +1,317 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source Sans Pro"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/typewriter.js"></script>
     <script defer src="js/app.js"></script>
-
   </head>
- 
-  <body class="bg-dark">  
-    
-    <main class="container-fluid">
-        
 
-        <!--Navigation-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            
-            <div class="collapse navbar-collapse text-nowrap" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#aboutme">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#interests">Interests</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#links">Links</a>
-                </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Image -->
-        <section class="background-bg">
-            <div class="background-img"></div>
-        </section>
-        <!-- Content -->
-        <div class ="row d-flex justify-content-center content">    
-            <section class="content-style" id="aboutme">
-                <div class="hidden"> 
-                    <h1>Andrej <br>Schwanke</h1>
-                    <p id="typewriter"></p> 
-                    
-                    <p id="aboutmecontent"></p> 
-                    
-                    <div class="img-container d-flex flex-row flex-wrap justify-content-evenly">
-                        <div class="hidden-img p-3">
-                            <img class="i-img" src="img/icons/icons8-gehirn-64.png">
-                            <p>Arteficial Intelligence</p>
-                        </div> 
-                        <div class="hidden-img p-3">
-                            <img class="i-img" src="img/icons/icons8-statistic-64.png">
-                            <p>Data Science</p>
-                        </div>
-                        <div class="hidden-img p-3">
-                            <img class="i-img" src="img/icons/icons8-programmierung-50.png">
-                            <p>Programming</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="content-style" id="skills">&nbsp;
-                <div class="hidden">
-                    <h1>Skills</h1>
-                    <p>
-                    Throughout my time studying I developed some experience in some programming languages and more!
-                    </p>
-                    <div class="img-container d-flex flex-row flex-wrap justify-content-evenly">          
-                        
-                        <div class="logo-container">
-                            <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                            <p>Python</p>
-                        </div>
-                        <div class="logo-container">
-                            <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
-                            <p>Kotlin</p>
-                        </div>
-                        <div class="logo-container">
-                            <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                            <p>Java</p>
-                        </div>
-                        <div class="logo-container">
-                            <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                            <p>C++</p>
-                        </div>
-                        <div class="logo-container">
-                            <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> 
-                            <p>HTML5</p>
-                        </div>
-                        <div class="logo-container">
-                            <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                            <p>CSS3</p>
-                        </div>
-                        <div class="logo-container">
-                            <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-                            <p>Git</p>
-                        </div>
-                    </div>
-                </div>
-            </section>         
-            <section class="content-style" id="interests">
-                <div class="hidden">
-                    <h1>Interests</h1>
-                    <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-                    magna aliquyam erat, sed diam voluptua. At vero eos 
-                    et accusam et justo duo dolores et ea rebum. Stet clita 
-                    kasd gubergren, no sea takimata sanctus est Lorem ipsum 
-                    dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
-                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-                    ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    </p>
-                </div>  
-            </section>         
-            <section class="content-style" id="projects">
-                <div class="hidden">
-                    <h1>Projects</h1>
-                    <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-                    magna aliquyam erat, sed diam voluptua. At vero eos 
-                    et accusam et justo duo dolores et ea rebum. Stet clita 
-                    kasd gubergren, no sea takimata sanctus est Lorem ipsum 
-                    dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
-                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-                    ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-            </section>
-           
-            <section class="content-style" id="links">
-                <div class="hidden" >
-                    <h1>Links</h1>
-                    <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-                    magna aliquyam erat, sed diam voluptua. At vero eos 
-                    et accusam et justo duo dolores et ea rebum. Stet clita 
-                    kasd gubergren, no sea takimata sanctus est Lorem ipsum 
-                    dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
-                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-                    ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-            </section>
+  <body class="bg-dark">
+    <main class="container-fluid">
+      <!--Navigation-->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
+
+        <div
+          class="collapse navbar-collapse text-nowrap"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#links">Links</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Image -->
+      <section class="background-bg">
+        <div class="background-img"></div>
+      </section>
+      <!-- Content -->
+      <div class="row d-flex justify-content-center content">
+        <section class="content-style" id="aboutme">
+          <div class="hidden">
+            <h1>Andrej <br />Schwanke</h1>
+            <p id="typewriter"></p>
+
+            <p id="aboutmecontent"></p>
+
+            <div
+              class="img-container d-flex flex-row flex-wrap justify-content-evenly"
+            >
+              <div class="hidden-img p-3">
+                <img class="i-img" src="img/icons/icons8-gehirn-64.png" />
+                <p>Artificial Intelligence</p>
+              </div>
+              <div class="hidden-img p-3">
+                <img class="i-img" src="img/icons/icons8-statistic-64.png" />
+                <p>Data Science</p>
+              </div>
+              <div class="hidden-img p-3">
+                <img
+                  class="i-img"
+                  src="img/icons/icons8-programmierung-50.png"
+                />
+                <p>Programming</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="content-style" id="skills">
+          &nbsp;
+          <div class="hidden">
+            <h1>Skills</h1>
+            <p>
+              Throughout my time studying I developed some experience in some
+              programming languages and more!
+            </p>
+            <div
+              class="img-container d-flex flex-row flex-wrap justify-content-evenly"
+            >
+              <div class="logo-container">
+                <img
+                  class="logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                />
+                <p>Python</p>
+              </div>
+              <div class="logo-container">
+                <img
+                  class="logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+                />
+                <p>Kotlin</p>
+              </div>
+              <div class="logo-container">
+                <img
+                  class="logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                />
+                <p>Java</p>
+              </div>
+              <div class="logo-container">
+                <img
+                  class="logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                />
+                <p>C++</p>
+              </div>
+              <div class="logo-container">
+                <img
+                  class="logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                />
+                <p>HTML5</p>
+              </div>
+              <div class="logo-container">
+                <img
+                  class="logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                />
+                <p>CSS3</p>
+              </div>
+              <div class="logo-container">
+                <img
+                  class="logo"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                />
+                <p>Git</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="content-style" id="resume">
+          <div class="hidden">
+            <h1>Resume</h1>
+            <div class="container mb-5">
+              <div class="row">
+                <div class="col-md-10 offset-md-1">
+                  <ul class="timeline">
+                    <li>
+                      <h2>
+                        Master of Science <span class="date">Since 2022</span>
+                      </h2>
+                      <p>Albert-Ludwigs-University Freiburg</p>
+                      <ul>
+                        <li>Further academic training in computer science</li>
+                        <li>
+                          Academic focus on artificial intelligence and
+                          bioinformatics
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h2>
+                        Tutor in the
+                        <a href="https://uol.de/sao"
+                          >system analysis and optimization</a
+                        >
+                        department
+                        <span class="date">2021 / 2022</span>
+                      </h2>
+                      <p>Carl von Ossietzky University Oldenburg</p>
+                      <ul>
+                        <li>
+                          Work as a tutor in the course "Introduction to
+                          artificial intelligence"
+                        </li>
+                        <li>
+                          Primary task was to create and correct exercises and
+                          hold lectures once a week on the exercises. Besides
+                          that I was involved in the design process of the exam
+                          and the correction. I was the contact person for
+                          content-related problems with the course.
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h2>
+                        Bachelor of Science
+                        <span class="date">2018 - 2022</span>
+                      </h2>
+                      <p>Carl von Ossietzky University Oldenburg</p>
+                      <ul>
+                        <li>General education in computer science</li>
+                        <li>
+                          First steps in specialization in artificial
+                          intelligence
+                        </li>
+                        <li>
+                          One-year group project in developing a digital version of <a href="https://en.wikipedia.org/wiki/Dominion_(card_game)">Dominion</a> using the
+                          software development process
+                          <a
+                            href="https://en.wikipedia.org/wiki/Scrum_(software_development)"
+                            >Scrum</a
+                          >. The projects consisted of designing and implementing the frontend and backend architecture for the game and maintaining
+                          Jira, Confluence and Git.
+                        </li>
+                        <li>
+                          <a href="https://www.youtube.com/watch?v=Rf9ZdiQpHSM"
+                            >Group project</a
+                          >
+                          in applications of artificial intelligence using
+                          <a
+                            href="https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies"
+                            >NEAT</a
+                          >
+                          for training a agent in the game
+                          <a href="https://retux-game.github.io/">ReTux</a>
+                        </li>
+                        <li>
+                          Bachelor thesis: development of an application to
+                          visualize the optimization process of evolutionary
+                          algorithms. The primary use of this tool lays in
+                          education.
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h2>
+                        College entrance qualification in computer science
+                        <span class="date">2016 - 2018</span>
+                      </h2>
+                      <p>BBS Ammerland</p>
+                      <ul>
+                        <li>
+                          Technical college with a focus on information systems
+                        </li>
+                        <li>
+                          One-year internship in the field of maintenance and
+                          repair of IT systems
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="content-style" id="projects">
+          <div class="hidden">
+            <h1>Projects</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+              dolor sit amet.
+            </p>
+          </div>
+        </section>
+
+        <section class="content-style" id="links">
+          <div class="hidden">
+            <h1>Links</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+              dolor sit amet.
+            </p>
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>

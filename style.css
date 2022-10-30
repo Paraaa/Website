@@ -1,16 +1,16 @@
 body {
-    font-family: 'Source Sans Pro' !important;
+  font-family: "Source Sans Pro" !important;
 }
 
 #typewriter {
-    letter-spacing: 0.25em;
-    color:rgb(100, 204, 105);
-    font-size: 50px;
+  letter-spacing: 0.25em;
+  color: rgb(100, 204, 105);
+  font-size: 50px;
 }
 
 #aboutmecontent {
-    text-align: center;
-    padding-top: 2em;
+  text-align: center;
+  padding-top: 2em;
 }
 
 a {
@@ -18,158 +18,203 @@ a {
 }
 
 p {
-    color: white;
-    font-size: 22px !important;
+  color: white;
+  font-size: 22px !important;
 }
 
 h1 {
-    font-weight: bold !important;
-    font-size: 63px !important;
-    color: white !important;
+  font-weight: bold !important;
+  font-size: 63px !important;
+  color: white !important;
 }
 
 .navbar {
-    border-bottom-style: solid;
-    border-width: 1px;
-    color: white;
+  border-bottom-style: solid;
+  border-width: 1px;
+  color: white;
 }
 
 .nav-item {
-    padding-left: 0.75rem;
+  padding-left: 0.75rem;
 }
 
 .img-container {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 .logo-container {
-    text-align: center;
+  text-align: center;
 }
 
 .logo {
-    margin-top: 10px;
-    width: 7rem;
-    margin: 2rem;
+  margin-top: 10px;
+  width: 7rem;
+  margin: 2rem;
 }
 
 .i-img {
-    filter: invert(100%) !important;
-    margin-top: 10px;
-    width: 5rem;
+  filter: invert(100%) !important;
+  margin-top: 10px;
+  width: 5rem;
 }
 
 .background-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    overflow: hidden;
-    width: 30%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  width: 30%;
 }
 
 .background-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-image: url(img/20220911_141914.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(img/20220911_141914.jpg);
 }
 
 .content {
-    position: absolute;
-    width: 70%;
-    height: auto;
-    top: 0;
-    right: 0;
+  position: absolute;
+  width: 70%;
+  height: auto;
+  top: 0;
+  right: 0;
 }
 
 .content-style {
-    color: white;
-    height: 100vh;
-    padding: 7em;
+  color: white;
+  min-height: 100vh;
+  padding: 7em;
 }
 
+/*
+    Source: https://bootsnipp.com/snippets/xrKXW
+*/
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline:before {
+  content: " ";
+  background: #dfd4d4;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 50px 0;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+ul.timeline > li > h2 {
+  letter-spacing: 0.10em;
+}
+
+.date {
+  float: right;
+  font-size: 20px;
+  color: rgb(100, 204, 105);
+  letter-spacing: 0.25em;
+}
 
 /*
 Class: hidden, show and @media .hidden are based on: 
 https://www.youtube.com/watch?v=T33NN_pPeNI
 */
 .hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateY(100%); 
-    transition: all 0.5s;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 0.5s;
 }
 
 .show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateY(0)
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }
 
 .hidden-img {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateY(100%); 
-    transition: all 0.5s;
-    text-align: center;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 0.5s;
+  text-align: center;
 }
 .show-img {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateY(0)
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }
 
 .hidden-img:nth-child(2) {
-    transition-delay: 200ms;
+  transition-delay: 200ms;
 }
 
 .hidden-img:nth-child(3) {
-    transition-delay: 400ms;
+  transition-delay: 400ms;
 }
 
 .show-img:hover {
-    transform: scale(1.25);
-    transition: 250ms;
+  transform: scale(1.25);
+  transition: 250ms;
 }
 
 .logo:hover {
-    transform: scale(1.25);
-    transition: 250ms;
+  transform: scale(1.25);
+  transition: 250ms;
 }
 
-@media(prefers-reduced-motion){
-    .hidden {
-        transition: none;
-    }
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
 }
 
 @media screen and (max-width: 990px) {
-    #mainText {
-        padding-top: 0;
-    }
+  #mainText {
+    padding-top: 0;
+  }
 
-    .background-bg {
-        position: relative;
-        width: 100%;
-        height: 70vh;
-    }
-    .content {
-        position: relative;
-        width: 100%;
-        top: 0;
-        left: 0;
-    }
-    .content-style {
-        height: auto;
-        padding: 2rem;
-        margin-right: 0rem;
-    }
-    .background-img {
-        margin-top: 2rem;
-    }
+  .background-bg {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+  }
+  .content {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .content-style {
+    height: auto;
+    padding: 2rem;
+    margin-right: 0rem;
+  }
+  .background-img {
+    margin-top: 2rem;
+  }
 }
