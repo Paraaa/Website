@@ -9,6 +9,7 @@ body {
 }
 
 #aboutmecontent {
+  font-size: 30px !important;
   text-align: center;
   padding-top: 2em;
 }
@@ -129,7 +130,7 @@ ul.timeline > li:before {
   z-index: 400;
 }
 ul.timeline > li > h2 {
-  letter-spacing: 0.10em;
+  letter-spacing: 0.1em;
 }
 
 .date {
