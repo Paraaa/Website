@@ -9,8 +9,6 @@ body {
 }
 
 #aboutmecontent {
-  font-size: 30px !important;
-  text-align: center;
   padding-top: 2em;
 }
 
@@ -43,14 +41,12 @@ h1 {
   padding-top: 5rem;
 }
 
-.logo-container {
-  text-align: center;
-}
+
 
 .logo {
   margin-top: 10px;
-  width: 7rem;
-  margin: 2rem;
+  width: 5rem;
+  margin: 1.5rem;
 }
 
 .i-img {
@@ -90,7 +86,7 @@ h1 {
 
 .content-style {
   color: white;
-  min-height: 100vh;
+  /* height: 100vh; */
   padding: 7em;
 }
 
@@ -144,19 +140,6 @@ ul.timeline > li > h2 {
 Class: hidden, show and @media .hidden are based on: 
 https://www.youtube.com/watch?v=T33NN_pPeNI
 */
-.hidden {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateY(100%);
-  transition: all 0.5s;
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateY(0);
-}
-
 .hidden-img {
   opacity: 0;
   filter: blur(5px);
@@ -176,16 +159,6 @@ https://www.youtube.com/watch?v=T33NN_pPeNI
 
 .hidden-img:nth-child(3) {
   transition-delay: 400ms;
-}
-
-.show-img:hover {
-  transform: scale(1.25);
-  transition: 250ms;
-}
-
-.logo:hover {
-  transform: scale(1.25);
-  transition: 250ms;
 }
 
 @media (prefers-reduced-motion) {
