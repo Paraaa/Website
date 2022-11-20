@@ -324,8 +324,18 @@
           <div class="container py-4">
             <!-- Source: https://startbootstrap.com/guides/bootstrap-form-setup-guide-->
             <!-- Bootstrap 5 starter form -->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-          
+            <?php
+            if(isset($_POST['submit'])) {
+              $to = "andrejschwanke19@gmail.com";
+              $name = $_POST['name'];
+              $email = $_POST['email'];
+              $message = $_POST['message'];
+              $mail = $name . " " . "wrote the following message: ". "\n\n" . $message;
+
+              mail($to, "Message from personal Website" , $mail);
+            }
+            ?>
+            <form id="contactForm" method="post">
               <!-- Name input -->
               <div class="mb-3">
                 <label class="form-label" for="name">Name</label>
@@ -352,19 +362,14 @@
               <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center mb-3">Form submission successful!</div>
               </div>
-          
-              <!-- Form submissions error message -->
-              <div class="d-none" id="submitErrorMessage">
-                <div class="text-center text-danger mb-3">Error sending message!</div>
-              </div>
-          
+                  
               <!-- Form submit button -->
               <div class="d-grid">
-                <button class="btn btn-light btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                <button class="btn btn-light btn-lg" id="submit" type="submit">Submit</button>
               </div>
           
             </form>
-          
+            
           </div>
           </div>
         </section>
