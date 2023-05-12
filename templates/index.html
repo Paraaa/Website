@@ -4,7 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='styles/style.css') }}"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,7 +30,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="{{url_for('static', filename='javascript/typewriter.js')}}"></script>
-    <script defer src="{{url_for('static', filename='javascript/app.js')}}"></script>
+    <script
+      defer
+      src="{{url_for('static', filename='javascript/app.js')}}"
+    ></script>
   </head>
 
   <body class="bg-dark">
@@ -63,14 +69,11 @@
             <li class="nav-item">
               <a class="nav-link" href="#resume">Resume</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li> -->
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#links">Links</a>
-            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#links">Links</a>
             </li>
           </ul>
         </div>
@@ -99,11 +102,17 @@
               class="img-container d-flex flex-row flex-wrap justify-content-evenly"
             >
               <div class="hidden-img p-3">
-                <img class="i-img" src="{{ url_for('static',filename='img/icons/icons8-gehirn-64.png') }}" />
+                <img
+                  class="i-img"
+                  src="{{ url_for('static',filename='img/icons/icons8-gehirn-64.png') }}"
+                />
                 <p>Artificial Intelligence</p>
               </div>
               <div class="hidden-img p-3">
-                <img class="i-img" src="{{ url_for('static',filename='img/icons/icons8-statistic-64.png') }}" />
+                <img
+                  class="i-img"
+                  src="{{ url_for('static',filename='img/icons/icons8-statistic-64.png') }}"
+                />
                 <p>Data Science</p>
               </div>
               <div class="hidden-img p-3">
@@ -284,93 +293,33 @@
             </div>
           </div>
         </section>
-        <!-- <section class="content-style" id="projects">
+        <section class="content-style" id="projects">
           <div>
             <h1>Projects</h1>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna aliquyam erat, sed diam
-              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet.
+              All of my projects are available on Github:
+              Genetic Visualizer: https://github.com/Paraaa/Genetic-Visualizer
+              SimpleMerge: https://github.com/Paraaa/SimpleMerge
+              (WIP) Mathly: https://github.com/Paraaa/mathly
             </p>
           </div>
-        </section> -->
+        </section>
 
-        <!-- <section class="content-style" id="links">
+        <section class="content-style" id="links">
           <div>
             <h1>Links</h1>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna aliquyam erat, sed diam
-              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet.
+              <a href="https://github.com/Paraaa">
+                  <img style="width: 96px; height: 96px"
+                    src="{{ url_for('static',filename='img/icons/github-mark/github-mark-white.svg') }}"
+                  ></img>
+              </a>
+              <a href="https://www.linkedin.com/in/andrej-schwanke-b3a51724b/">
+                  <img style="width: 96px; height: 96px"
+                    src="{{ url_for('static',filename='img/icons/linkedin-svgrepo-com.svg') }}"
+                  ></img>
+              </a>
             </p>
-          </div>
-        </section> -->
-        <section class="content-style" id="contact">
-          <h1>Contact</h1>
-          <div class="container py-4">
-            <!-- Source: https://startbootstrap.com/guides/bootstrap-form-setup-guide-->
-            <!-- Bootstrap 5 starter form -->
-            <?php
-            if(isset($_POST['submit'])) {
-              $to = "andrejschwanke19@gmail.com";
-              $name = $_POST['name'];
-              $email = $_POST['email'];
-              $message = $_POST['message'];
-              $mail = $name . " " . "wrote the following message: ". "\n\n" . $message;
-
-              mail($to, "Message from personal Website" , $mail);
-            }
-            ?>
-            <form id="contactForm" method="post">
-              <!-- Name input -->
-              <div class="mb-3">
-                <label class="form-label" for="name">Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-                <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
-              </div>
-          
-              <!-- Email address input -->
-              <div class="mb-3">
-                <label class="form-label" for="emailAddress">Email Address</label>
-                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
-                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-              </div>
-          
-              <!-- Message input -->
-              <div class="mb-3">
-                <label class="form-label" for="message">Message</label>
-                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-              </div>
-          
-              <!-- Form submissions success message -->
-              <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center mb-3">Form submission successful!</div>
-              </div>
-                  
-              <!-- Form submit button -->
-              <div class="d-grid">
-                <button class="btn btn-light btn-lg" id="submit" type="submit">Submit</button>
-              </div>
-          
-            </form>
-            
-          </div>
           </div>
         </section>
       </div>
