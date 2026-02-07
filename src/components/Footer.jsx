@@ -1,4 +1,5 @@
 import { Info, Github, ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -12,9 +13,20 @@ export default function Footer() {
           Operating from Germany. This garden adheres to all local digital
           regulations including TMG and DSGVO.
         </p>
-        <button className="mt-4 text-[10px] font-mono underline hover:text-[#D2796E] transition-colors">
-          View Impressum & Privacy
-        </button>
+        <div className="mt-4 flex gap-4 text-[10px] font-mono">
+          <Link
+            to="/impressum"
+            className="underline hover:text-[#D2796E] transition-colors"
+          >
+            Impressum
+          </Link>
+          <Link
+            to="/datenschutz"
+            className="underline hover:text-[#D2796E] transition-colors"
+          >
+            Datenschutz
+          </Link>
+        </div>
       </div>
       <div className="flex flex-col items-end justify-end gap-4">
         <div className="flex gap-4">
