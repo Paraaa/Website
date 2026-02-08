@@ -15,55 +15,55 @@ export default function Datenschutz() {
 					</p>
 				</section>
 				<h2>Inhaltsübersicht</h2>
-				<ul class="index">
+				<ul className="index">
 					<li>
-						<a class="index-link" href="#m3">
+						<a className="index-link" href="#m3">
 							Verantwortlicher
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#mOverview">
+						<a className="index-link" href="#mOverview">
 							Übersicht der Verarbeitungen
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#m2427">
+						<a className="index-link" href="#m2427">
 							Maßgebliche Rechtsgrundlagen
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#m27">
+						<a className="index-link" href="#m27">
 							Sicherheitsmaßnahmen
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#m25">
+						<a className="index-link" href="#m25">
 							Übermittlung von personenbezogenen Daten
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#m12">
+						<a className="index-link" href="#m12">
 							Allgemeine Informationen zur Datenspeicherung und
 							Löschung
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#m10">
+						<a className="index-link" href="#m10">
 							Rechte der betroffenen Personen
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#m225">
+						<a className="index-link" href="#m225">
 							Bereitstellung des Onlineangebots und Webhosting
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#m15">
+						<a className="index-link" href="#m15">
 							Änderung und Aktualisierung
 						</a>
 					</li>
 					<li>
-						<a class="index-link" href="#m42">
+						<a className="index-link" href="#m42">
 							Begriffsdefinitionen
 						</a>
 					</li>
@@ -393,7 +393,7 @@ export default function Datenschutz() {
 					Online-Dienste an den Browser oder das Endgerät der Nutzer
 					zu übermitteln.
 				</p>
-				<ul class="m-elements">
+				<ul className="m-elements">
 					<li>
 						<strong>Verarbeitete Datenarten:</strong> Nutzungsdaten
 						(z. B. Seitenaufrufe und Verweildauer, Klickpfade,
@@ -421,7 +421,7 @@ export default function Datenschutz() {
 						entsprechend Angaben im Abschnitt "Allgemeine
 						Informationen zur Datenspeicherung und Löschung".
 					</li>
-					<li class="">
+					<li className="">
 						<strong>Rechtsgrundlagen:</strong> Berechtigte
 						Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
 					</li>
@@ -432,7 +432,7 @@ export default function Datenschutz() {
 						und Diensten:
 					</strong>
 				</p>
-				<ul class="m-elements">
+				<ul className="m-elements">
 					<li>
 						<strong>
 							Bereitstellung Onlineangebot auf gemietetem
@@ -442,7 +442,7 @@ export default function Datenschutz() {
 						wir Speicherplatz, Rechenkapazität und Software, die wir
 						von einem entsprechenden Serveranbieter (auch
 						"Webhoster" genannt) mieten oder anderweitig beziehen;{" "}
-						<span class="">
+						<span className="">
 							<strong>Rechtsgrundlagen:</strong> Berechtigte
 							Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
 						</span>
@@ -466,7 +466,7 @@ export default function Datenschutz() {
 						sogenannten DDoS-Attacken), und zum anderen, um die
 						Auslastung der Server und ihre Stabilität
 						sicherzustellen;{" "}
-						<span class="">
+						<span className="">
 							<strong>Rechtsgrundlagen:</strong> Berechtigte
 							Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).{" "}
 						</span>
@@ -485,7 +485,7 @@ export default function Datenschutz() {
 						und/oder Rechenkapazitäten);{" "}
 						<strong>Dienstanbieter:</strong> Hetzner Online GmbH,
 						Industriestr. 25, 91710 Gunzenhausen, Deutschland;{" "}
-						<span class="">
+						<span className="">
 							<strong>Rechtsgrundlagen:</strong> Berechtigte
 							Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO);{" "}
 						</span>
@@ -537,7 +537,7 @@ export default function Datenschutz() {
 					Erläuterungen sollen dagegen vor allem dem Verständnis
 					dienen.
 				</p>
-				<ul class="glossary">
+				<ul className="glossary">
 					<li>
 						<strong>
 							Meta-, Kommunikations- und Verfahrensdaten:
@@ -628,7 +628,7 @@ export default function Datenschutz() {
 						das Übermitteln oder das Löschen.{" "}
 					</li>
 				</ul>
-				<p class="seal">
+				<p className="seal">
 					<a
 						href="https://datenschutz-generator.de/"
 						title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
