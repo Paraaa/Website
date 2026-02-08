@@ -1,24 +1,14 @@
-import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
-import BlogPost from "../components/BlogPost";
-import Footer from "../components/Footer";
+import BlogEntry from "../components/BlogEntry";
 
 export default function Home() {
+	// Mock data for blog entries
 	const mockPosts = [
 		{
 			id: "1",
-			title: "Why I built a blog with a Fractal Tree",
+			title: "What is this blog about?",
 			excerpt:
-				"Exploring the intersection of recursive mathematics and organic UI design. How a simple line-drawing algorithm turned into a digital garden.",
-			date: "2024-05-20",
-			tags: ["Math", "React"],
-			readingTime: "5 min",
-		},
-		{
-			id: "2",
-			title: "The Skeptical Developer's Toolkit",
-			excerpt:
-				"Why questioning every library, abstraction, and 'best practice' leads to more resilient software systems.",
+				"I am questioning the purpose of this blog and why I call it the digital garden. How I build it and what I want to achived. I will not always post something. There will be weird topics. It is only for me - a place where I can talk about stuff I learned. Stuff I thought about and insides I got.",
 			date: "2024-05-15",
 			tags: ["Philosophy"],
 			readingTime: "8 min",
@@ -26,30 +16,24 @@ export default function Home() {
 	];
 
 	return (
-		<div className="bg-[#F9F7F2] text-[#2D3A3A] selection:bg-[#D2796E]/20">
-			<Navigation />
+		<>
+			<Hero />
 
-			<main className="max-w-250 mx-auto px-6 pt-32 pb-24">
-				<Hero />
+			<section>
+				<div className="flex items-center gap-4 mb-12">
+					<div className="h-px flex-1 bg-[#8BA888]/20" />
+					<span className="text-xs font-mono uppercase tracking-widest opacity-50">
+						Recent Entries
+					</span>
+					<div className="h-px flex-1 bg-[#8BA888]/20" />
+				</div>
 
-				<section>
-					<div className="flex items-center gap-4 mb-12">
-						<div className="h-px flex-1 bg-[#8BA888]/20" />
-						<span className="text-xs font-mono uppercase tracking-widest opacity-50">
-							Recent Entries
-						</span>
-						<div className="h-px flex-1 bg-[#8BA888]/20" />
-					</div>
-
-					<div className="flex flex-col gap-16">
-						{mockPosts.map((post) => (
-							<BlogPost key={post.id} post={post} />
-						))}
-					</div>
-				</section>
-
-				<Footer />
-			</main>
-		</div>
+				<div className="flex flex-col gap-16">
+					{mockPosts.map((post) => (
+						<BlogEntry key={post.id} post={post} />
+					))}
+				</div>
+			</section>
+		</>
 	);
 }
