@@ -1,10 +1,5 @@
 import { useEffect, useRef } from "react";
 
-/**
- * REUSABLE COMPONENT: Fractal Tree
- * A recursive drawing that grows in complexity as the user scrolls.
- * Now includes randomization for unique trees on each reload and animation for growth.
- */
 export default function FractalTree() {
 	const canvasRef = useRef(null);
 
