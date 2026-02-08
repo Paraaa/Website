@@ -8,7 +8,6 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
-
 			<section>
 				<div className="flex items-center gap-4 mb-12">
 					<div className="h-px flex-1 bg-[#8BA888]/20" />

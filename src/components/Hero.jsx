@@ -6,13 +6,11 @@ export default function Hero() {
 			<div className="flex-1 min-w-100">
 				<h1 className="text-5xl font-serif font-medium mb-4 leading-tight">
 					Thoughts on <br />
-					<span className="italic text-[#8BA888]">
-						code and growth.
-					</span>
+					<span className="title-highlight">code and growth.</span>
 				</h1>
 				<p className="text-lg text-[#2D3A3A]/70 max-w-md leading-relaxed">
 					A collection of technical essays, skeptical deep-dives, and
-					ideas.
+					my <span className="title-highlight">thoughts.</span>
 				</p>
 			</div>
 			<FractalTree />
