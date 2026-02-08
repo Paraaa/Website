@@ -9,8 +9,7 @@ export default function Hero({ scrollProgress }) {
           <span className="italic text-[#8BA888]">code and growth.</span>
         </h1>
         <p className="text-lg text-[#2D3A3A]/70 max-w-md leading-relaxed">
-          A collection of technical essays, skeptical deep-dives, and fractal
-          experiments.
+          A collection of technical essays, skeptical deep-dives, and ideas.
         </p>
       </div>
       <FractalTree progress={scrollProgress} />
