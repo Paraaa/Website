@@ -1,19 +1,22 @@
 import { useParams } from "react-router-dom";
 import BackToGarden from "../components/BackToGarden";
+import { getBlogPostById } from "../utils/utils";
 import "../styles/Blog.css";
 
 export default function Blog() {
 	const { id } = useParams();
+	const post = getBlogPostById(id);
 
-	const post = {
-		id: "1",
-		title: "What is this blog about?",
-		excerpt:
-			"I am questioning the purpose of this blog and why I call it the digital garden. How I build it and what I want to achived. I will not always post something. There will be weird topics. It is only for me - a place where I can talk about stuff I learned. Stuff I thought about and insides I got.",
-		date: "2024-05-15",
-		tags: ["Philosophy"],
-		readingTime: "8 min",
-	};
+	if (!post) {
+		return (
+			<>
+				<BackToGarden />
+				<div className="blog-container">
+					<h2>Blog post not found</h2>
+				</div>
+			</>
+		);
+	}
 
 	return (
 		<>
@@ -31,7 +34,7 @@ export default function Blog() {
 						</span>
 					))}
 				</div>
-				<p className="blog-text">{post.excerpt}</p>
+				<p className="blog-content">{post.content}</p>
 			</article>
 		</>
 	);

@@ -25,6 +25,6 @@
 	@apply ml-auto text-[#8BA888] transform translate-x-0 group-hover:translate-x-1 transition-transform;
 }
 
-.blog-text {
+.blog-content {
 	@apply font-serif text-lg leading-relaxed mt-10;
 }
