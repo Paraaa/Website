@@ -1,24 +1,9 @@
-import { useState, useEffect, useCallback } from "react";
 import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
 import BlogPost from "../components/BlogPost";
 import Footer from "../components/Footer";
 
 export default function Home() {
-	const [scrollProgress, setScrollProgress] = useState(0);
-
-	const handleScroll = useCallback(() => {
-		const totalHeight =
-			document.documentElement.scrollHeight - window.innerHeight;
-		const progress = totalHeight > 0 ? window.scrollY / totalHeight : 0;
-		setScrollProgress(progress);
-	}, []);
-
-	useEffect(() => {
-		window.addEventListener("scroll", handleScroll, { passive: true });
-		return () => window.removeEventListener("scroll", handleScroll);
-	}, [handleScroll]);
-
 	const mockPosts = [
 		{
 			id: "1",
@@ -44,7 +29,7 @@ export default function Home() {
 		<div className="bg-[#F9F7F2] text-[#2D3A3A] selection:bg-[#D2796E]/20">
 			<Navigation />
 
-			<main className="max-w-3xl mx-auto px-6 pt-32 pb-24">
+			<main className="max-w-250 mx-auto px-6 pt-32 pb-24">
 				<Hero />
 
 				<section>
