@@ -1,0 +1,60 @@
+# Block all generic crawlers
+User-Agent: *
+Disallow: /
+
+# OpenAI
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: ChatGPT-User
+Disallow: /
+
+# Google AI (Gemini)
+User-Agent: Google-Extended
+Disallow: /
+
+# Anthropic (Claude)
+User-Agent: anthropic-ai
+Disallow: /
+
+User-Agent: Claude-Web
+Disallow: /
+
+# Common Crawl
+User-Agent: CCBot
+Disallow: /
+
+# Perplexity AI
+User-Agent: PerplexityBot
+Disallow: /
+
+# Meta/Facebook AI
+User-Agent: FacebookBot
+Disallow: /
+
+User-Agent: meta-externalagent
+Disallow: /
+
+# Bytedance/TikTok
+User-Agent: Bytespider
+Disallow: /
+
+# Apple AI
+User-Agent: Applebot-Extended
+Disallow: /
+
+# Cohere
+User-Agent: cohere-ai
+Disallow: /
+
+# Diffbot
+User-Agent: Diffbot
+Disallow: /
+
+# Amazon
+User-Agent: Amazonbot
+Disallow: /
+
+# Webz.io
+User-Agent: omgili
+Disallow: /

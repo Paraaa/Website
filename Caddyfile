@@ -1,0 +1,27 @@
+example.com {
+    @ai_bots {
+        header User-Agent *GPTBot*
+        header User-Agent *ChatGPT-User*
+        header User-Agent *Google-Extended*
+        header User-Agent *anthropic-ai*
+        header User-Agent *Claude-Web*
+        header User-Agent *CCBot*
+        header User-Agent *PerplexityBot*
+        header User-Agent *FacebookBot*
+        header User-Agent *meta-externalagent*
+        header User-Agent *Bytespider*
+        header User-Agent *Applebot-Extended*
+        header User-Agent *cohere-ai*
+        header User-Agent *Diffbot*
+        header User-Agent *Amazonbot*
+        header User-Agent *omgili*
+    }
+
+    handle @ai_bots {
+        respond "Access denied" 403
+    }
+
+    # Your normal config
+    root * /var/www/html
+    file_server
+}
