@@ -20,8 +20,9 @@ export default function FractalTree() {
 		canvas.height = size * dpr;
 		ctx.scale(dpr, dpr);
 
-		const maxDepth = Math.floor(10 + Math.random() * 4); // Random depth between 10 and 14
+		const maxDepth = Math.floor(9 + Math.random() * 4); // Random depth between 9 and 13
 		const baseLen = 60; // Base length of the initial branch
+		const padding = 7; // Padding from canvas edges
 
 		// Pre-generate the entire tree structure with fixed random values
 		const generateTreeStructure = (x, y, len, angle, depth) => {
@@ -29,6 +30,16 @@ export default function FractalTree() {
 
 			const x2 = x + Math.cos(angle) * len;
 			const y2 = y + Math.sin(angle) * len;
+
+			// Check if the branch endpoint is within canvas bounds
+			if (
+				x2 < padding ||
+				x2 > size - padding ||
+				y2 < padding ||
+				y2 > size - padding
+			) {
+				return []; // Don't create branches outside the canvas
+			}
 
 			const branches = [
 				{
