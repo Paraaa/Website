@@ -17,7 +17,6 @@ export async function getBlogPostById(id) {
 	const post = blogPostsData.find((post) => {
 		return post.id === id;
 	});
-	console.log("🚀 ~ getBlogPostById ~ post:", post);
 	if (!post) return undefined;
 	try {
 		// Vite allows importing raw files with ?raw
