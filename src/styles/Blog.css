@@ -5,8 +5,12 @@
 	@apply flex justify-between items-baseline mb-2 text-xs font-mono opacity-40;
 }
 
-.blog-title {
+.blog-entry-title {
 	@apply text-3xl font-serif font-medium group-hover:text-[#8BA888] transition-colors mb-3;
+}
+
+.blog-title {
+	@apply text-[57px] font-serif font-medium mb-3 italic;
 }
 
 .blog-excerpt {
@@ -21,6 +25,6 @@
 	@apply ml-auto text-[#8BA888] transform translate-x-0 group-hover:translate-x-1 transition-transform;
 }
 
-.blog-page {
-	@apply p-8;
+.blog-text {
+	@apply font-serif text-lg leading-relaxed mt-10;
 }

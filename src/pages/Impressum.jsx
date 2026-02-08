@@ -1,16 +1,8 @@
-import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
-
+import BackToGarden from "../components/BackToGarden";
 export default function Impressum() {
 	return (
 		<>
-			<Link
-				to="/"
-				className="inline-flex items-center gap-2 text-sm text-[#8BA888] hover:text-[#2D3A3A] transition-colors mb-8"
-			>
-				<ArrowLeft size={16} />
-				Back to Garden
-			</Link>
+			<BackToGarden />
 
 			<article className="prose prose-slate max-w-none">
 				<h1>Impressum</h1>
