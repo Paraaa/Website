@@ -32,7 +32,7 @@ export default function Impressum() {
 
               <h2 className="text font-serif font-medium">Kontakt</h2>
               <p>
-                Telefon: +49 1575 4166764
+                Telefon: +49 (0) 1575 4166764
                 <br />
                 E-Mail: andrejschwanke19 [at] gmail.com
               </p>
@@ -45,6 +45,25 @@ export default function Impressum() {
                 S&uuml;dring 24
                 <br />
                 79189 Bad Krozingen
+              </p>
+              <h2 className="text font-serif font-medium">Urheberrecht</h2>
+              <p>
+                Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
+                diesen Seiten unterliegen dem deutschen Urheberrecht. Die
+                Vervielfältigung, Bearbeitung, Verbreitung und jede Art der
+                Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der
+                schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+                <br />
+                Downloads und Kopien dieser Seite sind nur für den privaten,
+                nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf
+                dieser Seite nicht vom Betreiber erstellt wurden, werden die
+                Urheberrechte Dritter beachtet. Insbesondere werden Inhalte
+                Dritter als solche gekennzeichnet.
+                <br />
+                Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam
+                werden, bitten wir um einen entsprechenden Hinweis. Bei
+                Bekanntwerden von Rechtsverletzungen werden wir derartige
+                Inhalte umgehend entfernen.
               </p>
             </section>
           </div>

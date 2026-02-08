@@ -61,21 +61,6 @@ export default function Datenschutz() {
             </a>
           </li>
           <li>
-            <a class="index-link" href="#m104">
-              Blogs und Publikationsmedien
-            </a>
-          </li>
-          <li>
-            <a class="index-link" href="#m136">
-              Präsenzen in sozialen Netzwerken (Social Media)
-            </a>
-          </li>
-          <li>
-            <a class="index-link" href="#m328">
-              Plug-ins und eingebettete Funktionen sowie Inhalte
-            </a>
-          </li>
-          <li>
             <a class="index-link" href="#m15">
               Änderung und Aktualisierung
             </a>
@@ -102,9 +87,6 @@ export default function Datenschutz() {
         </p>
         <h3>Arten der verarbeiteten Daten</h3>
         <ul>
-          <li>Bestandsdaten.</li>
-          <li>Kontaktdaten.</li>
-          <li>Inhaltsdaten.</li>
           <li>Nutzungsdaten.</li>
           <li>Meta-, Kommunikations- und Verfahrensdaten.</li>
           <li>Protokolldaten.</li>
@@ -115,18 +97,11 @@ export default function Datenschutz() {
         </ul>
         <h3>Zwecke der Verarbeitung</h3>
         <ul>
-          <li>Kommunikation.</li>
           <li>Sicherheitsmaßnahmen.</li>
-          <li>Reichweitenmessung.</li>
-          <li>Tracking.</li>
-          <li>Zielgruppenbildung.</li>
-          <li>Feedback.</li>
-          <li>Marketing.</li>
           <li>
             Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.
           </li>
           <li>Informationstechnische Infrastruktur.</li>
-          <li>Öffentlichkeitsarbeit.</li>
         </ul>
         <h2 id="m2427">Maßgebliche Rechtsgrundlagen</h2>
         <p>
@@ -486,312 +461,6 @@ export default function Datenschutz() {
             .
           </li>
         </ul>
-        <h2 id="m104">Blogs und Publikationsmedien</h2>
-        <p>
-          Wir nutzen Blogs oder vergleichbare Mittel der Onlinekommunikation und
-          Publikation (nachfolgend "Publikationsmedium"). Die Daten der Leser
-          werden für die Zwecke des Publikationsmediums nur insoweit
-          verarbeitet, als es für dessen Darstellung und die Kommunikation
-          zwischen Autoren und Lesern oder aus Gründen der Sicherheit
-          erforderlich ist. Im Übrigen verweisen wir auf die Informationen zur
-          Verarbeitung der Besucher unseres Publikationsmediums im Rahmen dieser
-          Datenschutzhinweise.
-        </p>
-        <ul class="m-elements">
-          <li>
-            <strong>Verarbeitete Datenarten:</strong> Bestandsdaten (z. B. der
-            vollständige Name, Wohnadresse, Kontaktinformationen, Kundennummer,
-            etc.); Kontaktdaten (z. B. Post- und E-Mail-Adressen oder
-            Telefonnummern); Inhaltsdaten (z. B. textliche oder bildliche
-            Nachrichten und Beiträge sowie die sie betreffenden Informationen,
-            wie z. B. Angaben zur Autorenschaft oder Zeitpunkt der Erstellung);
-            Nutzungsdaten (z. B. Seitenaufrufe und Verweildauer, Klickpfade,
-            Nutzungsintensität und -frequenz, verwendete Gerätetypen und
-            Betriebssysteme, Interaktionen mit Inhalten und Funktionen). Meta-,
-            Kommunikations- und Verfahrensdaten (z. B. IP-Adressen, Zeitangaben,
-            Identifikationsnummern, beteiligte Personen).
-          </li>
-          <li>
-            <strong>Betroffene Personen:</strong> Nutzer (z. B.
-            Webseitenbesucher, Nutzer von Onlinediensten).
-          </li>
-          <li>
-            <strong>Zwecke der Verarbeitung:</strong> Feedback (z. B. Sammeln
-            von Feedback via Online-Formular). Bereitstellung unseres
-            Onlineangebotes und Nutzerfreundlichkeit.
-          </li>
-          <li>
-            <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-            Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-            und Löschung".
-          </li>
-          <li class="">
-            <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO).
-          </li>
-        </ul>
-        <h2 id="m136">Präsenzen in sozialen Netzwerken (Social Media)</h2>
-        <p>
-          Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und
-          verarbeiten in diesem Rahmen Nutzerdaten, um mit den dort aktiven
-          Nutzern zu kommunizieren oder Informationen über uns anzubieten.
-        </p>
-        <p>
-          Wir weisen darauf hin, dass dabei Nutzerdaten außerhalb des Raumes der
-          Europäischen Union verarbeitet werden können. Hierdurch können sich
-          für die Nutzer Risiken ergeben, weil so zum Beispiel die Durchsetzung
-          der Nutzerrechte erschwert werden könnte.
-        </p>
-        <p>
-          Ferner werden die Daten der Nutzer innerhalb sozialer Netzwerke im
-          Regelfall für Marktforschungs- und Werbezwecke verarbeitet. So können
-          beispielsweise anhand des Nutzungsverhaltens und sich daraus
-          ergebender Interessen der Nutzer Nutzungsprofile erstellt werden.
-          Letztere finden möglicherweise wiederum Verwendung, um etwa
-          Werbeanzeigen innerhalb und außerhalb der Netzwerke zu schalten, die
-          mutmaßlich den Interessen der Nutzer entsprechen. Daher werden im
-          Regelfall Cookies auf den Rechnern der Nutzer gespeichert, in denen
-          das Nutzungsverhalten und die Interessen der Nutzer gespeichert
-          werden. Zudem können in den Nutzungsprofilen auch Daten unabhängig der
-          von den Nutzern verwendeten Geräten gespeichert werden (insbesondere,
-          wenn sie Mitglieder der jeweiligen Plattformen und dort eingeloggt
-          sind).
-        </p>
-        <p>
-          Für eine detaillierte Darstellung der jeweiligen Verarbeitungsformen
-          und der Widerspruchsmöglichkeiten (Opt-out) verweisen wir auf die
-          Datenschutzerklärungen und Angaben der Betreiber der jeweiligen
-          Netzwerke.
-        </p>
-        <p>
-          Auch im Fall von Auskunftsanfragen und der Geltendmachung von
-          Betroffenenrechten weisen wir darauf hin, dass diese am effektivsten
-          bei den Anbietern geltend gemacht werden können. Nur Letztere haben
-          jeweils Zugriff auf die Nutzerdaten und können direkt entsprechende
-          Maßnahmen ergreifen und Auskünfte geben. Sollten Sie dennoch Hilfe
-          benötigen, dann können Sie sich an uns wenden.
-        </p>
-        <ul class="m-elements">
-          <li>
-            <strong>Verarbeitete Datenarten:</strong> Kontaktdaten (z. B. Post-
-            und E-Mail-Adressen oder Telefonnummern); Inhaltsdaten (z. B.
-            textliche oder bildliche Nachrichten und Beiträge sowie die sie
-            betreffenden Informationen, wie z. B. Angaben zur Autorenschaft oder
-            Zeitpunkt der Erstellung). Nutzungsdaten (z. B. Seitenaufrufe und
-            Verweildauer, Klickpfade, Nutzungsintensität und -frequenz,
-            verwendete Gerätetypen und Betriebssysteme, Interaktionen mit
-            Inhalten und Funktionen).
-          </li>
-          <li>
-            <strong>Betroffene Personen:</strong> Nutzer (z. B.
-            Webseitenbesucher, Nutzer von Onlinediensten).
-          </li>
-          <li>
-            <strong>Zwecke der Verarbeitung:</strong> Kommunikation; Feedback
-            (z. B. Sammeln von Feedback via Online-Formular).
-            Öffentlichkeitsarbeit.
-          </li>
-          <li>
-            <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-            Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-            und Löschung".
-          </li>
-          <li class="">
-            <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-            Abs. 1 S. 1 lit. f) DSGVO).
-          </li>
-        </ul>
-        <p>
-          <strong>
-            Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:
-          </strong>
-        </p>
-        <ul class="m-elements">
-          <li>
-            <strong>LinkedIn: </strong>Soziales Netzwerk - Wir sind gemeinsam
-            mit LinkedIn Irland Unlimited Company für die Erhebung (jedoch nicht
-            die weitere Verarbeitung) von Daten der Besucher verantwortlich, die
-            zur Erstellung der „Page-Insights" (Statistiken) unserer
-            LinkedIn-Profile genutzt werden. Zu diesen Daten gehören
-            Informationen über die Arten von Inhalten, die Nutzer sich ansehen
-            oder mit denen sie interagieren, sowie die von ihnen vorgenommenen
-            Handlungen. Außerdem werden Details über die genutzten Geräte
-            erfasst, wie z. B. IP-Adressen, Betriebssystem, Browsertyp,
-            Spracheinstellungen und Cookie-Daten, sowie Angaben aus den
-            Nutzerprofilen, wie Berufsfunktion, Land, Branche, Hierarchieebene,
-            Unternehmensgröße und Beschäftigungsstatus. Datenschutzinformationen
-            zur Verarbeitung von Nutzerdaten durch LinkedIn können den
-            Datenschutzhinweisen von LinkedIn entnommen werden:{" "}
-            <a
-              href="https://www.linkedin.com/legal/privacy-policy"
-              target="_blank"
-            >
-              https://www.linkedin.com/legal/privacy-policy.
-            </a>
-            Wir haben mit LinkedIn Irland eine spezielle Vereinbarung
-            geschlossen („Page Insights Joint Controller Addendum",{" "}
-            <a
-              href="https://legal.linkedin.com/pages-joint-controller-addendum"
-              target="_blank"
-            >
-              https://legal.linkedin.com/pages-joint-controller-addendum
-            </a>
-            ), in der insbesondere geregelt wird, welche Sicherheitsmaßnahmen
-            LinkedIn beachten muss und in der LinkedIn sich bereit erklärt hat,
-            die Rechte der Betroffenen zu erfüllen (d. h. Nutzer können z. B.
-            Auskunfts- oder Löschungsanfragen direkt an LinkedIn richten). Die
-            Rechte der Nutzer (insbesondere das Recht auf Auskunft, Löschung,
-            Widerspruch und Beschwerde bei der zuständigen Aufsichtsbehörde)
-            werden durch die Vereinbarungen mit LinkedIn nicht eingeschränkt.
-            Die gemeinsame Verantwortlichkeit beschränkt sich auf die Erhebung
-            und Übermittlung der Daten an LinkedIn Irland Unlimited Company, ein
-            Unternehmen mit Sitz in der EU. Die weitere Verarbeitung der Daten
-            obliegt ausschließlich LinkedIn Irland Unlimited Company,
-            insbesondere was die Übermittlung der Daten an die
-            Muttergesellschaft LinkedIn Corporation in den USA betrifft;{" "}
-            <strong>Dienstanbieter:</strong> LinkedIn Ireland Unlimited Company,
-            Wilton Place, Dublin 2, Irland;{" "}
-            <span class="">
-              <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
-              Abs. 1 S. 1 lit. f) DSGVO);{" "}
-            </span>
-            <strong>Website:</strong>{" "}
-            <a href="https://www.linkedin.com" target="_blank">
-              https://www.linkedin.com
-            </a>
-            ; <strong>Datenschutzerklärung:</strong>{" "}
-            <a
-              href="https://www.linkedin.com/legal/privacy-policy"
-              target="_blank"
-            >
-              https://www.linkedin.com/legal/privacy-policy
-            </a>
-            ; <strong>Grundlage Drittlandtransfers:</strong> Data Privacy
-            Framework (DPF), Standardvertragsklauseln (
-            <a href="https://legal.linkedin.com/dpa" target="_blank">
-              https://legal.linkedin.com/dpa
-            </a>
-            ). <strong>Widerspruchsmöglichkeit (Opt-Out):</strong>{" "}
-            <a
-              href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out"
-              target="_blank"
-            >
-              https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out
-            </a>
-            .
-          </li>
-        </ul>
-        <h2 id="m328">Plug-ins und eingebettete Funktionen sowie Inhalte</h2>
-        <p>
-          Wir binden Funktions- und Inhaltselemente in unser Onlineangebot ein,
-          die von den Servern ihrer jeweiligen Anbieter (nachfolgend als
-          „Drittanbieter" bezeichnet) bezogen werden. Dabei kann es sich zum
-          Beispiel um Grafiken, Videos oder Stadtpläne handeln (nachfolgend
-          einheitlich als „Inhalte" bezeichnet).
-        </p>
-        <p>
-          Die Einbindung setzt immer voraus, dass die Drittanbieter dieser
-          Inhalte die IP-Adresse der Nutzer verarbeiten, da sie ohne IP-Adresse
-          die Inhalte nicht an deren Browser senden könnten. Die IP-Adresse ist
-          damit für die Darstellung dieser Inhalte oder Funktionen erforderlich.
-          Wir bemühen uns, nur solche Inhalte zu verwenden, deren jeweilige
-          Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte
-          anzuwenden. Drittanbieter können ferner sogenannte Pixel-Tags
-          (unsichtbare Grafiken, auch als „Web Beacons" bezeichnet) für
-          statistische oder Marketingzwecke einsetzen. Durch die „Pixel-Tags"
-          können Informationen, wie etwa der Besucherverkehr auf den Seiten
-          dieser Website, ausgewertet werden. Die pseudonymen Informationen
-          können darüber hinaus in Cookies auf dem Gerät der Nutzer gespeichert
-          werden und unter anderem technische Auskünfte zum Browser und zum
-          Betriebssystem, zu verweisenden Websites, zur Besuchszeit sowie
-          weitere Angaben zur Nutzung unseres Onlineangebots enthalten, aber
-          auch mit solchen Informationen aus anderen Quellen verbunden werden.
-        </p>
-        <p>
-          <strong>Hinweise zu Rechtsgrundlagen:</strong> Sofern wir die Nutzer
-          um ihre Einwilligung in den Einsatz der Drittanbieter bitten, stellt
-          die Rechtsgrundlage der Datenverarbeitung die Erlaubnis dar. Ansonsten
-          werden die Nutzerdaten auf Grundlage unserer berechtigten Interessen
-          (d. h. Interesse an effizienten, wirtschaftlichen und
-          empfängerfreundlichen Leistungen) verarbeitet. In diesem Zusammenhang
-          möchten wir Sie auch auf die Informationen zur Verwendung von Cookies
-          in dieser Datenschutzerklärung hinweisen.
-        </p>
-        <ul class="m-elements">
-          <li>
-            <strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z. B.
-            Seitenaufrufe und Verweildauer, Klickpfade, Nutzungsintensität und
-            -frequenz, verwendete Gerätetypen und Betriebssysteme, Interaktionen
-            mit Inhalten und Funktionen). Meta-, Kommunikations- und
-            Verfahrensdaten (z. B. IP-Adressen, Zeitangaben,
-            Identifikationsnummern, beteiligte Personen).
-          </li>
-          <li>
-            <strong>Betroffene Personen:</strong> Nutzer (z. B.
-            Webseitenbesucher, Nutzer von Onlinediensten).
-          </li>
-          <li>
-            <strong>Zwecke der Verarbeitung:</strong> Bereitstellung unseres
-            Onlineangebotes und Nutzerfreundlichkeit; Reichweitenmessung (z. B.
-            Zugriffsstatistiken, Erkennung wiederkehrender Besucher); Tracking
-            (z. B. interessens-/verhaltensbezogenes Profiling, Nutzung von
-            Cookies); Zielgruppenbildung. Marketing.
-          </li>
-          <li>
-            <strong>Aufbewahrung und Löschung:</strong> Löschung entsprechend
-            Angaben im Abschnitt "Allgemeine Informationen zur Datenspeicherung
-            und Löschung". Speicherung von Cookies von bis zu 2 Jahren (Sofern
-            nicht anders angegeben, können Cookies und ähnliche Speichermethoden
-            für einen Zeitraum von zwei Jahren auf den Geräten der Nutzer
-            gespeichert werden.).
-          </li>
-          <li class="">
-            <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
-            lit. a) DSGVO). Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-            DSGVO).
-          </li>
-        </ul>
-        <p>
-          <strong>
-            Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:
-          </strong>
-        </p>
-        <ul class="m-elements">
-          <li>
-            <strong>YouTube-Videos: </strong>Videoinhalte;{" "}
-            <strong>Dienstanbieter:</strong> Google Ireland Limited, Gordon
-            House, Barrow Street, Dublin 4, Irland;{" "}
-            <span class="">
-              <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S.
-              1 lit. a) DSGVO);{" "}
-            </span>
-            <strong>Website:</strong>{" "}
-            <a href="https://www.youtube.com" target="_blank">
-              https://www.youtube.com
-            </a>
-            ; <strong>Datenschutzerklärung:</strong>{" "}
-            <a href="https://policies.google.com/privacy" target="_blank">
-              https://policies.google.com/privacy
-            </a>
-            ; <strong>Grundlage Drittlandtransfers:</strong> Data Privacy
-            Framework (DPF). <strong>Widerspruchsmöglichkeit (Opt-Out):</strong>{" "}
-            Opt-Out-Plugin:{" "}
-            <a
-              href="https://tools.google.com/dlpage/gaoptout?hl=de"
-              target="_blank"
-            >
-              https://tools.google.com/dlpage/gaoptout?hl=de
-            </a>
-            , Einstellungen für die Darstellung von Werbeeinblendungen:{" "}
-            <a
-              href="https://myadcenter.google.com/personalizationoff"
-              target="_blank"
-            >
-              https://myadcenter.google.com/personalizationoff
-            </a>
-            .
-          </li>
-        </ul>
         <h2 id="m15">Änderung und Aktualisierung</h2>
         <p>
           Wir bitten Sie, sich regelmäßig über den Inhalt unserer
@@ -817,37 +486,6 @@ export default function Datenschutz() {
           dem Verständnis dienen.
         </p>
         <ul class="glossary">
-          <li>
-            <strong>Bestandsdaten:</strong> Bestandsdaten umfassen wesentliche
-            Informationen, die für die Identifikation und Verwaltung von
-            Vertragspartnern, Benutzerkonten, Profilen und ähnlichen Zuordnungen
-            notwendig sind. Diese Daten können u.a. persönliche und
-            demografische Angaben wie Namen, Kontaktinformationen (Adressen,
-            Telefonnummern, E-Mail-Adressen), Geburtsdaten und spezifische
-            Identifikatoren (Benutzer-IDs) beinhalten. Bestandsdaten bilden die
-            Grundlage für jegliche formelle Interaktion zwischen Personen und
-            Diensten, Einrichtungen oder Systemen, indem sie eine eindeutige
-            Zuordnung und Kommunikation ermöglichen.{" "}
-          </li>
-          <li>
-            <strong>Inhaltsdaten:</strong> Inhaltsdaten umfassen Informationen,
-            die im Zuge der Erstellung, Bearbeitung und Veröffentlichung von
-            Inhalten aller Art generiert werden. Diese Kategorie von Daten kann
-            Texte, Bilder, Videos, Audiodateien und andere multimediale Inhalte
-            einschließen, die auf verschiedenen Plattformen und Medien
-            veröffentlicht werden. Inhaltsdaten sind nicht nur auf den
-            eigentlichen Inhalt beschränkt, sondern beinhalten auch Metadaten,
-            die Informationen über den Inhalt selbst liefern, wie Tags,
-            Beschreibungen, Autoreninformationen und Veröffentlichungsdaten{" "}
-          </li>
-          <li>
-            <strong>Kontaktdaten:</strong> Kontaktdaten sind essentielle
-            Informationen, die die Kommunikation mit Personen oder
-            Organisationen ermöglichen. Sie umfassen u.a. Telefonnummern,
-            postalische Adressen und E-Mail-Adressen, sowie Kommunikationsmittel
-            wie soziale Medien-Handles und
-            Instant-Messaging-Identifikatoren.{" "}
-          </li>
           <li>
             <strong>Meta-, Kommunikations- und Verfahrensdaten:</strong> Meta-,
             Kommunikations- und Verfahrensdaten sind Kategorien, die
@@ -908,30 +546,6 @@ export default function Datenschutz() {
             Leistungsberichten verwendet.{" "}
           </li>
           <li>
-            <strong>Reichweitenmessung:</strong> Die Reichweitenmessung (auch
-            als Web Analytics bezeichnet) dient der Auswertung der
-            Besucherströme eines Onlineangebotes und kann das Verhalten oder
-            Interessen der Besucher an bestimmten Informationen, wie z. B.
-            Inhalten von Webseiten, umfassen. Mit Hilfe der Reichweitenanalyse
-            können Betreiber von Onlineangeboten z. B. erkennen, zu welcher Zeit
-            Nutzer ihre Webseiten besuchen und für welche Inhalte sie sich
-            interessieren. Dadurch können sie z. B. die Inhalte der Webseiten
-            besser an die Bedürfnisse ihrer Besucher anpassen. Zu Zwecken der
-            Reichweitenanalyse werden häufig pseudonyme Cookies und Web-Beacons
-            eingesetzt, um wiederkehrende Besucher zu erkennen und so genauere
-            Analysen zur Nutzung eines Onlineangebotes zu erhalten.{" "}
-          </li>
-          <li>
-            <strong>Tracking:</strong> Vom "Tracking" spricht man, wenn das
-            Verhalten von Nutzern über mehrere Onlineangebote hinweg
-            nachvollzogen werden kann. Im Regelfall werden im Hinblick auf die
-            genutzten Onlineangebote Verhaltens- und Interessensinformationen in
-            Cookies oder auf Servern der Anbieter der Trackingtechnologien
-            gespeichert (sogenanntes Profiling). Diese Informationen können
-            anschließend z. B. eingesetzt werden, um den Nutzern Werbeanzeigen
-            anzuzeigen, die voraussichtlich deren Interessen entsprechen.{" "}
-          </li>
-          <li>
             <strong>Verantwortlicher:</strong> Als "Verantwortlicher" wird die
             natürliche oder juristische Person, Behörde, Einrichtung oder andere
             Stelle, die allein oder gemeinsam mit anderen über die Zwecke und
@@ -945,21 +559,6 @@ export default function Datenschutz() {
             Der Begriff reicht weit und umfasst praktisch jeden Umgang mit
             Daten, sei es das Erheben, das Auswerten, das Speichern, das
             Übermitteln oder das Löschen.{" "}
-          </li>
-          <li>
-            <strong>Zielgruppenbildung:</strong> Von Zielgruppenbildung
-            (englisch "Custom Audiences") spricht man, wenn Zielgruppen für
-            Werbezwecke, z. B. Einblendung von Werbeanzeigen bestimmt werden. So
-            kann z. B. anhand des Interesses eines Nutzers an bestimmten
-            Produkten oder Themen im Internet geschlussfolgert werden, dass
-            dieser Nutzer sich für Werbeanzeigen für ähnliche Produkte oder den
-            Onlineshop, in dem er die Produkte betrachtet hat, interessiert. Von
-            "Lookalike Audiences" (bzw. ähnlichen Zielgruppen) spricht man
-            wiederum, wenn die als geeignet eingeschätzten Inhalte Nutzern
-            angezeigt werden, deren Profile, bzw. Interessen mutmaßlich den
-            Nutzern zu denen die Profile gebildet wurden, entsprechen. Zur
-            Zwecken der Bildung von Custom Audiences und Lookalike Audiences
-            werden im Regelfall Cookies und Web-Beacons eingesetzt.{" "}
           </li>
         </ul>
         <p class="seal">

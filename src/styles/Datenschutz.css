@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.index-link {
+  @apply text-[#2D3A3A]/80 hover:text-[#8BA888] underline transition-colors pb-0.5;
+}
+
+ul {
+  @apply list-disc ml-6;
+}
+
+ul > li {
+  @apply mb-2 text-base text-gray-800;
+}

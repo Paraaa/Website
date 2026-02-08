@@ -16,9 +16,6 @@ export default function Navigation() {
           <Link to="/" className="hover:text-[#8BA888] transition-colors">
             Garden
           </Link>
-          <a href="#" className="hover:text-[#8BA888] transition-colors">
-            Essays
-          </a>
           <Link
             to="/impressum"
             className="hover:text-[#8BA888] transition-colors"
