@@ -20,7 +20,7 @@ export default function FractalTree() {
 		canvas.height = size * dpr;
 		ctx.scale(dpr, dpr);
 
-		const maxDepth = Math.floor(9 + Math.random() * 4); // Random depth between 9 and 13
+		const maxDepth = 9;
 		const baseLen = 60; // Base length of the initial branch
 		const padding = 7; // Padding from canvas edges
 
@@ -124,32 +124,77 @@ export default function FractalTree() {
 			return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 		};
 
-		let currentDepth = 0; // Start with depth 0
+		// Easing function for smooth animation - ease out for more natural growth
+		const easeOutCubic = (t) => {
+			return 1 - Math.pow(1 - t, 3);
+		};
+
+		// Smoother easing for individual branch growth
+		const easeOutQuart = (t) => {
+			return 1 - Math.pow(1 - t, 4);
+		};
+
+		const animationDuration = 3000; // Total animation duration in ms
+		const startTime = Date.now();
 
 		const animate = () => {
 			ctx.clearRect(0, 0, size, size); // Clear the canvas
 
+			// Calculate animation progress (0 to 1)
+			const elapsed = Date.now() - startTime;
+			const progress = Math.min(elapsed / animationDuration, 1);
+
+			// Apply easing function to progress
+			const easedProgress = easeOutCubic(progress);
+			const currentDepth = easedProgress * (maxDepth + 1);
+
 			// Draw all three trees
 			trees.forEach((tree) => {
 				tree.branches.forEach((branch) => {
-					if (branch.depth >= maxDepth - currentDepth) {
-						ctx.beginPath();
-						ctx.moveTo(branch.x1, branch.y1);
-						ctx.lineTo(branch.x2, branch.y2);
-						ctx.strokeStyle = getColor(
-							branch.depth,
-							maxDepth,
-							tree.opacity
+					// Calculate at what point this branch should start growing
+					const branchStart = maxDepth - branch.depth;
+					const branchEnd = branchStart + 1;
+
+					if (currentDepth >= branchStart) {
+						// Calculate how much of this branch to draw (0 to 1)
+						const rawProgress = Math.min(
+							Math.max(
+								(currentDepth - branchStart) /
+									(branchEnd - branchStart),
+								0
+							),
+							1
 						);
-						ctx.lineWidth = branch.depth * 0.8;
-						ctx.lineCap = "round";
-						ctx.stroke();
+
+						// Apply smooth easing to branch extension
+						const branchProgress = easeOutQuart(rawProgress);
+
+						if (branchProgress > 0) {
+							// Draw partial or full branch
+							const drawX2 =
+								branch.x1 +
+								(branch.x2 - branch.x1) * branchProgress;
+							const drawY2 =
+								branch.y1 +
+								(branch.y2 - branch.y1) * branchProgress;
+
+							ctx.beginPath();
+							ctx.moveTo(branch.x1, branch.y1);
+							ctx.lineTo(drawX2, drawY2);
+							ctx.strokeStyle = getColor(
+								branch.depth,
+								maxDepth,
+								tree.opacity
+							);
+							ctx.lineWidth = branch.depth * 0.8;
+							ctx.lineCap = "round";
+							ctx.stroke();
+						}
 					}
 				});
 			});
 
-			if (currentDepth < maxDepth) {
-				currentDepth += 0.12;
+			if (progress < 1) {
 				requestAnimationFrame(animate);
 			}
 		};
