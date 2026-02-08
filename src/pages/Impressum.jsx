@@ -16,13 +16,12 @@ export default function Impressum() {
           <ArrowLeft size={16} />
           Back to Garden
         </Link>
-        {/* TODO: Check this and format this. Example: https://danielsieger.com/imprint */}
+
         <article className="prose prose-slate max-w-none">
-          <h1 className="text-4xl font-serif font-medium mb-8">Impressum</h1>
+          <h1>Impressum</h1>
 
           <div className="space-y-6 text-[#2D3A3A]/80 leading-relaxed">
             <section>
-              <h1>Impressum</h1>
               <p>
                 Andrej Schwanke
                 <br />
@@ -30,13 +29,16 @@ export default function Impressum() {
                 <br />
                 79189 Bad Krozingen
               </p>
-              <h2>Kontakt</h2>
+
+              <h2 className="text font-serif font-medium">Kontakt</h2>
               <p>
                 Telefon: +49 1575 4166764
                 <br />
-                E-Mail: andrejschwanke19@gmail.com
+                E-Mail: andrejschwanke19 [at] gmail.com
               </p>
-              <h2>Redaktionell verantwortlich</h2>
+              <h2 className="text font-serif font-medium">
+                Redaktionell verantwortlich
+              </h2>
               <p>
                 Andrej Schwanke
                 <br />
@@ -47,9 +49,8 @@ export default function Impressum() {
             </section>
           </div>
         </article>
+        <Footer />
       </main>
-
-      <Footer />
     </div>
   );
 }
