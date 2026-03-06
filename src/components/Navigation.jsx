@@ -19,12 +19,6 @@ export default function Navigation() {
 					>
 						Garden
 					</Link>
-					<Link
-						to="/impressum"
-						className="hover:text-[#8BA888] transition-colors"
-					>
-						Legal
-					</Link>
 				</div>
 			</div>
 		</nav>

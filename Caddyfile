@@ -1,4 +1,4 @@
-example.com {
+{$DOMAIN:localhost} {
     @ai_bots {
         header User-Agent *GPTBot*
         header User-Agent *ChatGPT-User*
@@ -21,7 +21,5 @@ example.com {
         respond "Access denied" 403
     }
 
-    # Your normal config
-    root * /var/www/html
-    file_server
+    reverse_proxy website:5173
 }

@@ -1,0 +1,29 @@
+services:
+    # reverse-proxy:
+    #     image: caddy:alpine
+    #     restart: unless-stopped
+    #     ports:
+    #         - "80:80"
+    #         - "443:443"
+    #     volumes:
+    #         - ./caddy:/etc/caddy
+    #         - caddy_data:/data
+    #         - caddy_config:/config
+    #     depends_on:
+    #         - website
+    #     networks:
+    #         - publics
+
+    website:
+        build: .
+        ports:
+            - "5173:5173"
+        networks:
+            - intranet
+
+networks:
+    intranet:
+
+volumes:
+    caddy_data:
+    caddy_config:
